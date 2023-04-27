@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Style-->
+  <link rel="stylesheet" href="src/style/normalize.css">
+  <link rel="stylesheet" href="src/style/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="src/style/headerFooter.css">
+  <link rel="stylesheet" href="src/style/main.css">
+  <link rel="stylesheet" href="src/style/forms/contactus.css">
+  <title>Join Us</title>
+</head>
+<body>
+<!--Start Nav-->
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="src/assets/images/logo.svg" class="w-75">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active"  href="#">About OZ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Venues</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Membership</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">F & B</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+      </ul>
+      <div class="d-flex">
+        <a class="nav-link navbar-text mx-4" href="#">inquire</a>
+        <a class="nav-link m-auto" href="#">Login <img src="src/assets/images/icons/loginIcon.png"></a>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--END Nav-->
+<!--Start Login Section-->
+<section class="contactus p-60" >
+  <div class="container-fluid ">
+
+    <div class="row ">
+      <div class="col-lg-6">
+        <div class="position-relative">
+          <img src="src/assets/images/Vector.png" class="position-absolute">
+        </div>
+        <div class="head-content-left-shape text-left pb-3 position-relative">
+          <h1 class="hand-write">Join us</h1>
+          <h3 class="bold-head">Get started to join with oz community</h3>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="form-card py-3">
+          <form class="px-5">
+            <div class="row">
+              <div class="col-6">
+                <div class="form__group field my-3">
+                  <label for="fname" class="form__label">First Name</label>
+                  <input type="text" class="form__field" placeholder="Enter Your First Name" name="email" id='fname' required />
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form__group field my-3">
+                  <label for="lname" class="form__label">Last Name</label>
+                  <input type="text" class="form__field" placeholder="Enter Your Last Name" name="email" id='lname' required />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form__group field my-3">
+                  <label for="email" class="form__label">Email</label>
+                  <input type="email" class="form__field" placeholder="Enter Your Email" name="email" id='email' required />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form__group field my-3">
+                  <label for="phone" class="form__label">Phone number</label>
+                  <input type="number" class="form__field" placeholder="Phone No." name="phone" id='phone' required />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form__group field my-3">
+                  <label for="phone" class="form__label">User Type</label>
+                  <select class="form__field" required>
+                    <option selected>Enter user type</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+
+                  </select>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form__group field my-3">
+                  <label for="phone" class="form__label">Inquiry Type</label>
+                  <select class="form__field" required>
+                    <option selected>Choose Service</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+
+                  </select>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form__group field my-3">
+                  <label for="phone" class="form__label">Locations</label>
+                  <select class="form__field" required>
+                    <option selected>Choose Location</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+
+                  </select>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form__group field my-3">
+                  <label for="comment" class="form__label">Comments</label>
+                  <input type="text" class="form__field" placeholder="Enter your comments" name="comment" id='comment' required />
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center my-3">
+              <button type="submit" class="button-one-outline">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End Login Section-->
+<!--Start Footer-->
+<footer>
+  <hr class="footer-hr">
+  <div class="d-flex justify-content-between m-auto py-3">
+    <span class="footer-text">© 2023, Made with passion by Macber EG</span>
+    <div class="">
+      <a href="#" target="_blank">Privacy Policy</a>
+      <a href="#" target="_blank">Term&conditions</a>
+    </div>
+  </div>
+</footer>
+<!--End Footer-->
+<!--Javascript-->
+<script src="src/js/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
