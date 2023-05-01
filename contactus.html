@@ -18,13 +18,14 @@
 <div id="navbar"></div>
 <!--END Nav-->
 <!--Start Login Section-->
-<section class="contactus p-120 wow animate__animated animate__fadeInLeft" data-wow-duration="2s"  >
-  <div class="container-fluid ">
+<section class="contactus my-5">
+  <div class="position-relative">
+    <img src="src/assets/images/Vector.png" class="position-absolute" style="top: 0px; left: 0; width: 100px">
+  </div>
+  <div class="container ">
     <div class="row ">
       <div class="col-lg-6">
-        <div class="position-relative">
-          <img src="src/assets/images/Vector.png" class="position-absolute">
-        </div>
+
         <div class="head-content-left-shape text-left pb-3 position-relative">
           <h1 class="hand-write">Lets Connect,</h1>
           <h3 class="bold-head">Schedule a tour, say hello</h3>
@@ -32,7 +33,7 @@
       </div>
       <div class="col-lg-6">
         <div class="form-card py-3">
-          <form class="px-5">
+          <form>
             <div class="row">
               <div class="col-6">
                 <div class="form__group field my-3">
@@ -61,8 +62,8 @@
               <div class="col-12">
                 <div class="form__group field my-3">
                   <label for="phone" class="form__label">User Type</label>
-                  <select class="form__field" required>
-                    <option selected>Enter user type</option>
+                  <select class="form__field placeholderSelect" required >
+                    <option class="" selected>Enter user type</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
                     <option value="3">Three</option>
@@ -73,7 +74,7 @@
               <div class="col-12">
                 <div class="form__group field my-3">
                   <label for="phone" class="form__label">Inquiry Type</label>
-                  <select class="form__field" required>
+                  <select class="form__field placeholderSelect" required>
                     <option selected>Choose Service</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -85,7 +86,7 @@
               <div class="col-12">
                 <div class="form__group field my-3">
                   <label for="phone" class="form__label">Locations</label>
-                  <select class="form__field" required>
+                  <select class="form__field placeholderSelect" required>
                     <option selected>Choose Location</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>

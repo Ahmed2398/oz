@@ -185,11 +185,11 @@ transform: translateY(0);
     font-family: questrial,sans-serif;
     width: 100%;
     border: 0;
-    border-bottom: 2px solid #9b9b9b;
+    border-bottom: 1px solid #BDBDBD;
     outline: 0;
     /*font-size: 1.3rem;*/
-    color: var(--secondary-color2);
-    padding: 7px 0;
+    color: var(--primary-color);
+    padding: 15px 0px 10px 14px;
     background: transparent;
     transition: border-color 0.2s;
 }
@@ -216,12 +216,14 @@ transform: translateY(0);
 
 }
 
+
 .form__field:focus {
-    padding-bottom: 6px;
+    padding: 15px 0px 10px 14px;
     font-weight: 700;
-    border-width: 3px;
+    border-width: 1px;
     /*border-image: linear-gradient(to right, #11998e, #38ef7d);*/
     border-image-slice: 1;
+    color: var(--primary-color);
 }
 .form__field:focus ~ .form__label {
     position: absolute;
@@ -268,6 +270,10 @@ transform: translateY(0);
     transition: 1s;
     transform: scale(1.2);
 }
+ .placeholderSelect{
+     color: var(--secondary-color2);
+
+ }
 /******************************************************/
 /******************************************************/
 
@@ -308,8 +314,11 @@ transform: translateY(0);
 
 }
 .head-content-left-shape{
-    margin-left: 5rem;
-    margin-top: 3.8rem;
+    margin-left: -3rem;
+    margin-top: 5rem;
+}
+.head-content-left-shape .bold-head{
+    line-height: 2;
 }
 /*************************************************************************/
 /*************************************************************************/
@@ -338,11 +347,11 @@ transform: translateY(0);
 
 .slick-slide {
     transition: all ease-in-out .3s;
-    opacity: .2;
+    opacity: 1;
 }
 
 .slick-active {
-    opacity: .5;
+    opacity: 1;
 }
 
 .slick-current {
@@ -360,9 +369,11 @@ transform: translateY(0);
 }
 
 .slick-next:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #FFFFFF;
 }
 .slick-prev:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #FFFFFF;
 }
 .slick-prev::before{
@@ -370,8 +381,8 @@ transform: translateY(0);
     font-size: 50px;
     font-weight: bold;
     position: absolute;
-    top: 0 !important;
-    left: 7px;
+    top: 7px !important;
+    left: 15px;
 }
 
 .slick-next::before {
@@ -379,8 +390,8 @@ transform: translateY(0);
     font-size: 50px;
     font-weight: bold;
     position: absolute;
-    top: 0px;
-    right: 7px;
+    top: 7px;
+    right: 15px;
 }
 .slick-arrow{
     border-radius: 50%;

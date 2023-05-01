@@ -1,9 +1,21 @@
 /*.bg-sliderImage .draggable .slick-track{*/
 /*    width: 100% !important;*/
 /*}*/
-.bg-sliderImage .image-sliderbg{
+
+.background-cover {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../assets/images/layer.png);
+}
+.slide {
     height: 100vh;
 }
+
+
+/*.bg-sliderImage .image-slider{*/
+/*    height: 100% !important;*/
+/*}*/
 .become-member-slider .slider {
     width: 100% !important;
 }
@@ -90,15 +102,41 @@
     font-size: 16px;
 }
 .features{
-    text-align: center;
+    text-align: left;
 }
 .features .bold-head{
     font-size: var(--font-size-23);
 }
 .features img{
-    width: 70px;
+    width: 50px;
+    text-align: left !important;
 }
 .membership-types .large-head{
     font-size: var(--font-size-41);
     margin-bottom: 35px;
+}
+/*Individual-types*/
+.Individual-types .card{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    border: none;
+}
+.Individual-types .card-img-top{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.Individual-types .card-title{
+    font-weight: var(--font-weight-bold);
+}
+
+
+.membership-types .card{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    border: none;
+}
+.membership-types .card-img-top{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.membership-types .card-title{
+    font-weight: var(--font-weight-bold);
 }

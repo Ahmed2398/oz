@@ -8,10 +8,16 @@
     text-transform: uppercase;
 }
 .nav-link:hover{
-    color: var(--semantic-color1);
+    /*color: var(--semantic-color1);*/
     cursor: pointer;
-    transition: 1s;
-    transform: scale(1.2);
+    /*transition: 1s;*/
+    /*transform: scale(1.2);*/
+}
+nav .nav-item{
+    padding: 0 10px;
+}
+nav .nav-link{
+    padding: 0 30px;
 }
 .nav-item .active{
     color: var(--semantic-color1);
