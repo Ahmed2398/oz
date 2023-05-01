@@ -56,3 +56,6 @@
 .locations .slick-dots{
     text-align: end;
 }
+.locations .large-head{
+    font-size: var(--font-size-41);
+}
