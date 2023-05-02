@@ -14,10 +14,10 @@
     /*transform: scale(1.2);*/
 }
 nav .nav-item{
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 nav .nav-link{
-    padding: 0 30px;
+    padding: 10px 30px;
 }
 .nav-item .active{
     color: var(--semantic-color1);
