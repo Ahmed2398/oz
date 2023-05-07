@@ -326,7 +326,7 @@ transform: translateY(0);
 /***********************Sliders******************************************/
 /*slider*/
 .slider {
-    width: 90%;
+    width: 100%;
     /*margin: 100px auto;*/
     margin: 0 auto;
 }
@@ -363,9 +363,11 @@ transform: translateY(0);
     padding: 30px;
 }
 .slick-next {
+    right: 0 !important;
 }
 .slick-prev{
     z-index: 9999;
+    left: 0 !important;
 }
 
 .slick-next:hover{
@@ -382,7 +384,7 @@ transform: translateY(0);
     font-weight: bold;
     position: absolute;
     top: 7px !important;
-    left: 15px;
+    left: 17px;
 }
 
 .slick-next::before {
@@ -391,7 +393,7 @@ transform: translateY(0);
     font-weight: bold;
     position: absolute;
     top: 7px;
-    right: 15px;
+    right: 17px;
 }
 .slick-arrow{
     border-radius: 50%;
