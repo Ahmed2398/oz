@@ -31,7 +31,7 @@ const navbar= `
             <div class="">
             <div class="d-flex m-auto">
              <a class="nav-link navbar-text " href="contactus.html">inquire</a>
-                <a class="nav-link m-auto" href="index.html">Login <img src="src/assets/images/icons/loginIcon.png"></a>
+                <a class="nav-link " href="index.html">Login <img src="src/assets/images/icons/loginIcon.png"></a>
             </div>
                
             </div>

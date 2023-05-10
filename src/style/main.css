@@ -14,6 +14,9 @@
 html, body{
     background-color: var(--neturals-color1);
 }
+a{
+    text-decoration: none;
+}
 :root {
     /***************Colors*******************/
     --primary-color: #000000;
