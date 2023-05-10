@@ -116,8 +116,10 @@
     margin-bottom: 35px;
 }
 /*Individual-types*/
-.Individual-types .card{
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+.Individual-types .card
+{
+    background: #FFFFFF;
+    box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1);
     border: none;
 }
 .Individual-types .card-img-top{
@@ -130,7 +132,8 @@
 
 
 .membership-types .card{
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    /*background: #FFFFFF;*/
+    /*box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.1);*/
     border: none;
 }
 .membership-types .card-img-top{
