@@ -94,7 +94,7 @@ a{
 /*outLine Button*/
 .button-one-outline {
  align-items: center;
- background-color: #FFFFFF;
+ background-color: var(neturals-color1);
  border: 1px solid #000000;;
  border-radius: .25rem;
  /*box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;*/

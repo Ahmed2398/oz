@@ -32,7 +32,7 @@
     margin-bottom: 10px;
 }
 .membership-types .card-body{
-    background: #FFFFFF;
+    /*background: #FFFFFF;*/
 }
 .membership-types .card-title{
     font-family: couture, sans-serif;
@@ -43,7 +43,7 @@
     color: var(--primary-color);
 }
 .membership-types .slider .card{
-    background: #FFFFFF !important;
+    /*background: #FFFFFF !important;*/
     border: none;
 }
 .membership-types .card-img-top{
