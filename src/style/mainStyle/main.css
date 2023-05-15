@@ -67,15 +67,15 @@ a{
 /*****************Font Family*****************/
 @font-face {
     font-family: goldenHopes;
-    src: url(../assets/fonts/golden-hopes/golden-hopes.otf);
+    src: url(../../assets/fonts/golden-hopes/golden-hopes.otf);
 }
 @font-face {
     font-family: couture;
-    src: url(../assets/fonts/couture/couture-bld.otf);
+    src: url(../../assets/fonts/couture/couture-bld.otf);
 }
 @font-face {
     font-family: questrial;
-    src: url(../assets/fonts/questrial/questrial-regular.ttf);
+    src: url(../../assets/fonts/questrial/questrial-regular.ttf);
 }
 /*******************************************/
 /*******************************************/

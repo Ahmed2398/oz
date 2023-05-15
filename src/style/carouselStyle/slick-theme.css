@@ -93,7 +93,7 @@
 
 .slick-prev:before
 {
-    content: url("../assets/images/icons/left.svg");
+    content: url("../../assets/images/icons/left.svg");
 }
 
 [dir='rtl'] .slick-prev:before
@@ -117,7 +117,7 @@
 }
 
 .slick-next:before{
-    content: url("../assets/images/icons/right.svg") !important;
+    content: url("../../assets/images/icons/right.svg") !important;
 }
 
 [dir='rtl'] .slick-next:before
