@@ -85,22 +85,23 @@
         </div>
     </div>
 </footer>
+
+
+<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+<button>Get External Content</button>
 <!--End Footer-->
 <!--Javascript-->
-<script src=
-                "https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity=
-                "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("#div1").load("src/js/api/test.txt");
+        });
+    });
 </script>
 
-<script src=
-                "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity=
-                "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous">
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="src/js/bootstrap/bootstrap.min.js"></script>
 <script src="src/js/carousel/customSlider.js"></script>
 <script src="src/js/library/wow/wow.min.js"></script>
